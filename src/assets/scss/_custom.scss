@@ -5,6 +5,12 @@ $drk-grey: #6A6C75;
 $mint: #2FEEB8;
 $heap-pink: #EF3974;
 $heap-orange: #F4792B;
+$body-text: #4A4A4A;
+* {
+    font-family: 'Proxima Nova', Arial, sans-serif;
+    color: $body-text;
+}
+
 .head-bar {
     background-color: $primary-pink;
     border-bottom: 1px solid white;
@@ -24,9 +30,84 @@ h1 {
     color: white;
     font-size: 2.8em;
     font-weight: 500;
-    margin: 35px 0 35px 30px;
+    margin: 35px 0;
 }
 
 .grey-bar {
     background-color: $md-grey;
+}
+
+.analysis-image {
+    width: 42px;
+    margin: 20px 10px 20px 0;
+    display: inline;
+}
+
+.analysis {
+    background-image: url('../img/prodAnalysis_icon.png');
+    background-repeat: no-repeat;
+    background-size: 52px;
+    background-position: left center;
+}
+
+.feedback {
+    background-image: url('../img/feedback_icon.png');
+    background-repeat: no-repeat;
+    background-size: 52px;
+    background-position: left center;
+}
+
+.guides {
+    background-image: url('../img/guides_icon.png');
+    background-repeat: no-repeat;
+    background-size: 52px;
+    background-position: left center;
+}
+
+.announcements {
+    background-image: url('../img/announcements_icon.png');
+    background-repeat: no-repeat;
+    background-size: 52px;
+    background-position: left center;
+}
+
+h2 {
+    color: $primary-pink;
+    font-size: 18px;
+    margin: 20px 0 5px 65px;
+    font-weight: 500;
+}
+
+.analysis p,
+.feedback p,
+.guides p,
+.announcements p {
+    font-size: 14px;
+    margin: 0 10px 20px 70px;
+}
+
+.left-block {
+    padding: 30px;
+}
+
+.left-block p {
+    font-size: 15px;
+    line-height: 1.5em;
+    margin-top: 10px;
+}
+
+h3 {
+    font-family: 'Proxima Nova', Arial, sans-serif;
+    color: $primary-pink;
+    font-size: 24px;
+    font-weight: 600;
+    margin-top: 30px;
+    text-align: center;
+}
+
+.grid-sub {
+    font-size: 14px;
+    line-height: 1.5em;
+    color: $primary-pink;
+    text-align: center;
 }
