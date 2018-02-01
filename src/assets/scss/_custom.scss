@@ -1,0 +1,32 @@
+$primary-pink: #EC2059;
+$md-grey: #DFDFDF;
+$lt-grey: #F4F4F7;
+$drk-grey: #6A6C75;
+$mint: #2FEEB8;
+$heap-pink: #EF3974;
+$heap-orange: #F4792B;
+.head-bar {
+    background-color: $primary-pink;
+    border-bottom: 1px solid white;
+}
+
+.head-logo {
+    width: 130px;
+    margin: 15px 0px 15px 30px;
+}
+
+.head-text-block {
+    background-color: $primary-pink;
+}
+
+h1 {
+    font-family: 'Proxima Nova', Arial, sans-serif;
+    color: white;
+    font-size: 2.8em;
+    font-weight: 500;
+    margin: 35px 0 35px 30px;
+}
+
+.grey-bar {
+    background-color: $md-grey;
+}
