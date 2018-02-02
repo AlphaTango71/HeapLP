@@ -84,6 +84,10 @@ label.mktoLabel {
     margin-top: 10px !important;
 }
 
+.mktoForm .mktoButtonWrap.mktoSimple .mktoButton:hover {
+    background-color: darken($primary-pink, 20);
+}
+
 .form-block {
     padding: 20px;
 }
