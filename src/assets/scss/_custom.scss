@@ -111,3 +111,17 @@ h3 {
     color: $primary-pink;
     text-align: center;
 }
+
+.right-block {
+    padding: 40px;
+    @media screen and (max-width: 400px) {
+        padding: 10px 0;
+    }
+}
+
+h4 {
+    color: $primary-pink;
+    font-family: 'Proxima Nova', Arial, sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+}

@@ -1,0 +1,89 @@
+.form-block {
+    padding: 20px;
+    border: 2px solid $primary-pink;
+    border-radius: 4px;
+}
+
+label.mktoLabel {
+    display: none;
+}
+
+.mktoForm {
+    width: 100% !important;
+}
+
+.mktoFormRow,
+.mktoFieldWrap,
+.mktoButtonRow {
+    width: 100%;
+}
+
+.mktoForm input[type=url],
+.mktoForm input[type=text],
+.mktoForm input[type=date],
+.mktoForm input[type=tel],
+.mktoForm input[type=email],
+.mktoForm input[type=number],
+.mktoForm textarea.mktoField,
+.mktoForm select.mktoField {
+    width: 100% !important;
+}
+
+.mktoFormCol {
+    width: 100%;
+}
+
+.mktoFieldWrap {
+    padding-right: 20px !important;
+    padding-left: 10px !important;
+    box-sizing: border-box;
+}
+
+.mktoFormCol:nth-child(even) .mktoFieldWrap {
+    padding-right: 0 !important;
+}
+
+.mktoButtonRow {
+    text-align: center !important;
+}
+
+.mktoForm .mktoLabel {
+    width: 150px !important;
+}
+
+.mktoButtonWrap {
+    margin-left: 0 !important;
+    margin-top: 15px !important;
+}
+
+.mktoForm .mktoAsterix {
+    float: left;
+    color: #bf0000;
+    padding-right: 5px;
+    display: none;
+}
+
+@media only screen and (max-width: 480px) {
+    .mktoFormCol {
+        width: 100% !important;
+    }
+    .mktoFieldWrap {
+        padding-right: 0 !important;
+    }
+}
+
+.mktoForm .mktoButtonWrap.mktoSimple .mktoButton {
+    background: $primary-pink !important;
+    color: white!important;
+    font-weight: 700;
+    border: 2px solid #ec2059 !important;
+    border-radius: 4px !important;
+    text-align: center !important;
+    width: 100% !important;
+    padding: 10px !important;
+    margin-top: 10px !important;
+}
+
+.form-block {
+    padding: 20px;
+}
