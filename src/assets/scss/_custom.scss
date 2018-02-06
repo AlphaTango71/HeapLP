@@ -103,6 +103,9 @@ h3 {
     font-weight: 600;
     margin-top: 30px;
     text-align: center;
+    @media screen and (max-width: 400px) {
+        margin-top: 15px;
+    }
 }
 
 .grid-sub {
@@ -131,14 +134,16 @@ h4 {
     color: $drk-grey;
     font-size: 35px;
     text-align: center;
+    @media screen and (max-width: 400px) {
+        font-size: 28px;
+    }
 }
 
 #cardio .cardio-block {
     padding: 0 25px;
-}
-
-#cardio img {
-    width: 650px;
+    @media screen and (max-width: 400px) {
+        padding: 5px;
+    }
 }
 
 #quote-block {
@@ -163,8 +168,17 @@ h4 {
     color: $drk-grey;
 }
 
+.logo-row {
+    padding: 30px;
+}
+
 #logos img {
     display: inline-block;
-    padding: 30px;
-    width: 18%;
+    width: 15%;
+    margin: 10px 30px;
+    @media screen and (max-width: 400px) {
+        display: block;
+        margin: 20px;
+        width: 60%;
+    }
 }
