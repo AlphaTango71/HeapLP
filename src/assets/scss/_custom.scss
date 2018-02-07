@@ -31,6 +31,10 @@ h1 {
     font-size: 2.8em;
     font-weight: 500;
     margin: 35px 0;
+    @media screen and (max-width: 400px) {
+        font-size: 2em;
+        margin: 20px 10px 20px 20px;
+    }
 }
 
 .grey-bar {
@@ -44,37 +48,37 @@ h1 {
 }
 
 .analysis {
-    background-image: url('http://go.pendo.io/rs/185-LQW-370/images/prodAnalysis_icon_2x.png');
+    background-image: url('../img/prodAnalysis_icon_2x_v2.png');
     background-repeat: no-repeat;
-    background-size: 52px;
+    background-size: 57px;
     background-position: left center;
 }
 
 .feedback {
-    background-image: url('http://go.pendo.io/rs/185-LQW-370/images/feedback_icon_2x.png');
+    background-image: url('../img/feedback_icon_2x_v2.png');
     background-repeat: no-repeat;
-    background-size: 52px;
+    background-size: 57px;
     background-position: left center;
 }
 
 .guides {
-    background-image: url('http://go.pendo.io/rs/185-LQW-370/images/guides_icon_2x.png');
+    background-image: url('../img/guides_icon_2x_v2.png');
     background-repeat: no-repeat;
-    background-size: 52px;
+    background-size: 57px;
     background-position: left center;
 }
 
 .announcements {
-    background-image: url('http://go.pendo.io/rs/185-LQW-370/images/announcements_icon_2x.png');
+    background-image: url('../img/announcements_icon_2x.png');
     background-repeat: no-repeat;
-    background-size: 52px;
+    background-size: 57px;
     background-position: left center;
 }
 
 h2 {
     color: $primary-pink;
     font-size: 18px;
-    margin: 20px 0 5px 65px;
+    margin: 20px 0 5px 70px;
     font-weight: 500;
 }
 
@@ -180,5 +184,24 @@ h4 {
         display: block;
         margin: 20px;
         width: 60%;
+    }
+}
+
+#icon-block-mobile {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+@media screen and (max-width: 400px) {
+    #icon-block-top,
+    #body-text-desktop {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 401px) {
+    #body-text-mobile,
+    #icon-block-mobile {
+        display: none;
     }
 }
